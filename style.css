@@ -1,1 +1,52 @@
+html, body{ /*quitar espaciado por defectp*/
+    padding: 0;
+    margin: 0;
+    
+}
 
+body{
+    background-color: #4d09cd;
+    display: flex; /*para que el div dentro del body ste centrado*/
+    justify-content: center; /*centra horizontalmente*/
+    align-items: center; /*centra verticalemente */
+    height: 100vh; /*para que baje al elemento*/
+}
+
+#trivia{
+    padding: 4rem;
+    width: 30rem;
+        background-color: rgb(185, 220, 31);
+    border-radius: 1rem;
+    box-shadow: .5rem .5rem .5rem black;
+    text-align: center;
+    
+}
+
+h1{
+    font-size: 3rem;
+    text-align: center;
+    padding: 2px 0;
+}
+
+#pregunta{
+    font-size: 1.5rem;
+}
+
+button, .boton{
+    background-color: #4d09cd;
+    color: white;
+    width: 250px;
+    font-size: 20px;
+    border-radius: 1rem;
+    padding: 10px ;
+    margin: 10px 40px 10px;
+    outline: 0;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #78649f;
+}
+
+#progreso{
+    font-size: 20px;
+}
