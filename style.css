@@ -50,3 +50,13 @@ button:hover{
 #progreso{
     font-size: 20px;
 }
+.correct{
+    
+    padding: 1px 5px;
+    background: greenyellow;
+    border-radius: 2rem;
+}
+
+.wrong{
+    background-color: red;
+}
